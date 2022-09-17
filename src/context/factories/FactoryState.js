@@ -4,7 +4,7 @@ import axios from 'axios';
 
 
 const FactoryState = (props) => {
-    const host = "http://127.0.0.1:8000";
+    const host = "https://prateekbackend.azurewebsites.net";
     const factoriesInitial = [];
     const productsInitial = [];
     const [factories, setFactories] = useState(factoriesInitial)
